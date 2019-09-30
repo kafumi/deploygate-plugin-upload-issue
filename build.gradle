@@ -3,7 +3,7 @@
 buildscript {
     ext {
         kotlin_version = '1.3.50'
-        deployGatePluginVersion = '1.1.5'
+        deployGatePluginVersion = '2.0.1'
     }
     repositories {
         google()

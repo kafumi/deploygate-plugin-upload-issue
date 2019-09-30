@@ -34,9 +34,9 @@ dependencies {
 }
 
 deploygate {
-    apks {
+    deployments {
         debug {
-            noAssemble = true
+            skipAssemble = true
         }
     }
 }
