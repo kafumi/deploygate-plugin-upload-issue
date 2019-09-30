@@ -37,6 +37,7 @@ deploygate {
     deployments {
         debug {
             skipAssemble = true
+            sourceFile = file("${project.rootDir}/app/build/outputs/apk/debug/app-debug.apk")
         }
     }
 }
